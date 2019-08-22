@@ -1,0 +1,15 @@
+#google-logo{
+    width: 92px;
+    height: 30px;
+    display: flex;
+}
+
+.nav-bar{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.nav-bar * {
+    margin: 10px;
+}
