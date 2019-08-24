@@ -285,6 +285,8 @@ body{
     background-color: #f2f2f2;
     border: #737373 1px solid;
     color: #737373;
+    padding-left: 150px;
+    font-size: 14px;
 }
 
 .country-footer ul {
@@ -304,4 +306,21 @@ body{
 
 .country-footer a:hover {
     color: black;
+}
+
+#footer {
+    border: none;
+}
+
+#footer a {
+    
+    font-size: 13px;
+}
+
+.bottom-text {
+    display: flex;
+}
+
+.bottom-text a {
+    padding: 10px;
 }
