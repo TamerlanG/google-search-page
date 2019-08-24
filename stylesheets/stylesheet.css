@@ -128,3 +128,41 @@ body{
     text-decoration: none;
     color: #737373;
 }
+
+.webpage {
+    width:650px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.webpage * {
+    margin: 0;
+    padding: 2px 0;
+}
+
+.webpage a {
+    text-decoration: none;
+}
+
+.webpage h3 a
+{
+    color: blue;
+}
+
+.webpage h4 a {
+    color: green;
+}
+
+.webpage h3 a:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.webpage p {
+    color: #737373;
+}
+
+.date {
+    font-size: 14px;
+}
