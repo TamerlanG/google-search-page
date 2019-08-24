@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .main-wrapper {
@@ -11,20 +11,27 @@ body {
 }
 
 #google-logo {
+  margin-top: 15px;
   width: 92px;
   height: 30px;
   display: flex;
 }
 
 #search-bar {
-  width: 600px;
-  height: 30px;
+  width: 550px;
+  height: 25px;
   border-radius: 40px;
   font-size: 15px;
   padding: 0.5em;
   border: #f2f2f2 solid 1px;
   padding-left: 15px;
   outline: none;
+  margin-top: 15px;
+  background-image: url(../images/microphone-solid.svg),
+    url(../images/search-solid.svg);
+  background-repeat: no-repeat;
+  background-position: 90% 50%, 97% 50%;
+  background-size: 13px, 18px;
 }
 
 #search-bar:hover {
@@ -62,11 +69,13 @@ body {
 .second-navbar a {
   padding: 0 5px;
   text-decoration: none;
-  color: #737373;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #666;
 }
 
 .second-navbar a:hover {
-  color: #1f9ae6;
+  color: #1a0dab;
 }
 
 .right-second {
@@ -75,7 +84,9 @@ body {
 
 .search-results {
   margin-left: 170px;
-  font-size: 15px;
+  font-size: 13px;
+  color: #777;
+  font-family: arial, sans-serif;
 }
 
 .box-results {
