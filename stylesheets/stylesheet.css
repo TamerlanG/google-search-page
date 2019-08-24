@@ -71,3 +71,46 @@ body{
     margin-left: 170px;
     font-size: 15px;
 }
+
+.box-results {
+    margin-left: 170px;
+    border: 1px solid black;
+    width: 600px;
+    padding: 5px 15px;
+    background-image: url(../images/box-results-image.jpeg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.box-results ol {
+    margin-right: 10px;
+    padding: 0 20px;
+}
+
+.box-results li{
+    font-size: 20px;
+}
+
+.box-results p{
+    font-size: 12px;
+    color: #737373;
+    margin-left: 10px;
+}
+
+.website-chooser a {
+    text-decoration: none;
+    color: rgb(40, 40, 202);
+}
+
+.website-chooser h2 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.website-chooser h4{
+    margin:0;
+    margin-top: 5px;
+    color: green;
+
+}
