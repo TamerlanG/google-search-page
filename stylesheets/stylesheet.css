@@ -203,3 +203,43 @@ body{
     margin: 0;
 
 }
+
+.related-search {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 170px;
+    border: 1px solid black;
+    width: 650px;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+.related-search h3 {
+    margin: 2px;
+}
+
+.related-search ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.lists{
+    margin-left: 20px;
+}
+
+.lists img {
+    width: 96px;
+    height: 72px;
+}
+
+.lists a {
+    text-decoration: none;
+    color: blue;
+}
+
+.related-searches {
+    color: #737373;
+    font-size: 15px;
+}
