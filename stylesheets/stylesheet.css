@@ -112,5 +112,19 @@ body{
     margin:0;
     margin-top: 5px;
     color: green;
+}
 
+.snippets {
+    margin-left: 520px;
+}
+
+.snippets ul {
+    list-style-type: none;
+}
+
+.snippets a {
+    padding: 0 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #737373;
 }
