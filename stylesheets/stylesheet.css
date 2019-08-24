@@ -1,326 +1,323 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 
-.main-wrapper{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0;
-    padding: 0;
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0;
+  padding: 0;
 }
 
-#google-logo{
-    width: 92px;
-    height: 30px;
-    display: flex;
+#google-logo {
+  width: 92px;
+  height: 30px;
+  display: flex;
 }
 
-#search-bar{
-    width: 600px;
-    height: 30px;
-    border-radius:40px;
-    font-size: 15px;
-    padding: 0.5em;
-    border: #f2f2f2 solid 1px;
-    padding-left: 15px;
+#search-bar {
+  width: 600px;
+  height: 30px;
+  border-radius: 40px;
+  font-size: 15px;
+  padding: 0.5em;
+  border: #f2f2f2 solid 1px;
+  padding-left: 15px;
+  outline: none;
 }
 
-.nav-bar{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
+#search-bar:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.nav-bar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
 }
 
 .nav-bar * {
-    margin: 10px;
-    margin-top: 5px;
+  margin: 10px;
+  margin-top: 5px;
 }
 
-.right-nav img{
-    position: relative;
-    left: 430px;
-    width: 20px;
-    height: 20px;
+.right-nav img {
+  position: relative;
+  left: 430px;
+  width: 20px;
+  height: 20px;
 }
 
-.second-navbar{
-    border-bottom: #f2f2f2 solid 1px;
-    margin: 0;
-    padding: 0;
+.second-navbar {
+  border-bottom: #f2f2f2 solid 1px;
+  margin: 0;
+  padding: 0;
 }
 
-.inner-second-div{
-    margin-bottom: 10px;
-    margin-left: 165px;
+.inner-second-div {
+  margin-bottom: 10px;
+  margin-left: 165px;
 }
-.second-navbar a{
-    padding: 0 5px;
-    text-decoration: none;
-    color: #737373;
+.second-navbar a {
+  padding: 0 5px;
+  text-decoration: none;
+  color: #737373;
 }
 
 .second-navbar a:hover {
-    color: lightblue;
+  color: lightblue;
 }
 
-.right-second{
-    margin-left: 200px;
+.right-second {
+  margin-left: 200px;
 }
 
-.search-results{
-    margin-left: 170px;
-    font-size: 15px;
+.search-results {
+  margin-left: 170px;
+  font-size: 15px;
 }
 
 .box-results {
-    margin-left: 170px;
-    border: 1px solid black;
-    width: 600px;
-    padding: 5px 15px;
-    background-image: url(../images/box-results-image.jpeg);
-    background-repeat: no-repeat;
-    background-position: top right;
+  margin-left: 170px;
+  border: 1px solid black;
+  width: 600px;
+  padding: 5px 15px;
+  background-image: url(../images/box-results-image.jpeg);
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 .box-results ol {
-    margin-right: 10px;
-    padding: 0 20px;
+  margin-right: 10px;
+  padding: 0 20px;
 }
 
-.box-results li{
-    font-size: 20px;
+.box-results li {
+  font-size: 20px;
 }
 
-.box-results p{
-    font-size: 12px;
-    color: #737373;
-    margin-left: 10px;
+.box-results p {
+  font-size: 12px;
+  color: #737373;
+  margin-left: 10px;
 }
 
 .website-chooser a {
-    text-decoration: none;
-    color: rgb(40, 40, 202);
+  text-decoration: none;
+  color: rgb(40, 40, 202);
 }
 
 .website-chooser h2 {
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
 }
 
-.website-chooser h4{
-    margin:0;
-    margin-top: 5px;
-    color: green;
+.website-chooser h4 {
+  margin: 0;
+  margin-top: 5px;
+  color: green;
 }
 
 .snippets {
-    margin-left: 520px;
+  margin-left: 520px;
 }
 
 .snippets ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .snippets a {
-    padding: 0 10px;
-    font-size: 15px;
-    text-decoration: none;
-    color: #737373;
+  padding: 0 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #737373;
 }
 
 .webpage {
-    width:650px;
-    margin-left: 180px;
-    margin-top: 10px;
+  width: 650px;
+  margin-left: 180px;
+  margin-top: 10px;
 }
 
 .webpage * {
-    margin: 0;
-    padding: 2px 0;
+  margin: 0;
+  padding: 2px 0;
 }
 
 .webpage a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.webpage h3 a
-{
-    color: blue;
+.webpage h3 a {
+  color: blue;
 }
 
 .webpage h4 a {
-    color: green;
+  color: green;
 }
 
-.webpage h3 a:hover
-{
-    text-decoration: underline;
-    cursor: pointer;
+.webpage h3 a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .webpage p {
-    color: #737373;
+  color: #737373;
 }
 
 .date {
-    font-size: 14px;
+  font-size: 14px;
 }
 
-.people-also-ask{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 170px;
-    border: 1px solid black;
-    width: 650px;
+.people-also-ask {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 170px;
+  border: 1px solid black;
+  width: 650px;
 }
 
-.people-also-ask ul
-{
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+.people-also-ask ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 .people-also-ask li {
-    
-    padding: 15px 20px;
-    border-top: 1px black solid;
-    font-size: 18px;
-    cursor: pointer;
-    background-image: url(../images/angle-down-solid.svg);
-    background-repeat: no-repeat;
-    background-position: 98% 50%;
-    background-size: 10px;
-
+  padding: 15px 20px;
+  border-top: 1px black solid;
+  font-size: 18px;
+  cursor: pointer;
+  background-image: url(../images/angle-down-solid.svg);
+  background-repeat: no-repeat;
+  background-position: 98% 50%;
+  background-size: 10px;
 }
 
 .people-also-ask h3 {
-    padding-left: 20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin: 0;
-
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 0;
 }
 
 .related-search {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 170px;
-    border: 1px solid black;
-    width: 650px;
-    padding: 10px;
-    padding-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 170px;
+  border: 1px solid black;
+  width: 650px;
+  padding: 10px;
+  padding-bottom: 15px;
 }
 
 .related-search h3 {
-    margin: 2px;
+  margin: 2px;
 }
 
 .related-search ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-.lists{
-    margin-left: 20px;
+.lists {
+  margin-left: 20px;
 }
 
 .lists img {
-    width: 96px;
-    height: 72px;
+  width: 96px;
+  height: 72px;
 }
 
 .lists a {
-    text-decoration: none;
-    color: blue;
+  text-decoration: none;
+  color: blue;
 }
 
 .related-searches {
-    color: #737373;
-    font-size: 15px;
+  color: #737373;
+  font-size: 15px;
 }
 
 .searches-relates {
-    margin-left: 170px;
-    
+  margin-left: 170px;
 }
 
 .searches-relates ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .searches-relates li {
-    margin: 10px 0px;
+  margin: 10px 0px;
 }
 
 .searches-relates a {
-    text-decoration: none;
-    color: blue;
+  text-decoration: none;
+  color: blue;
 }
 
 .different-pages {
-    margin-left: 250px;    
-    margin-top: 30px;
+  margin-left: 250px;
+  margin-top: 30px;
 }
 
 .different-pages ul {
-    list-style-type: none;
-    display: flex;
+  list-style-type: none;
+  display: flex;
 }
 
-.different-pages a{
-    margin: 5px;
+.different-pages a {
+  margin: 5px;
 }
 
 .next {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .country-footer {
-    background-color: #f2f2f2;
-    border: #737373 1px solid;
-    color: #737373;
-    padding-left: 150px;
-    font-size: 14px;
+  background-color: #f2f2f2;
+  border: #737373 1px solid;
+  color: #737373;
+  padding-left: 150px;
+  font-size: 14px;
 }
 
 .country-footer ul {
-    list-style-type: none;
-    display: flex;
+  list-style-type: none;
+  display: flex;
 }
 
 .country-footer a {
-    margin-left: 3px;
-    text-decoration: none;
-    color: #737373;
+  margin-left: 3px;
+  text-decoration: none;
+  color: #737373;
 }
 
 .country-footer li {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 .country-footer a:hover {
-    color: black;
+  color: black;
 }
 
 #footer {
-    border: none;
+  border: none;
 }
 
 #footer a {
-    
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .bottom-text {
-    display: flex;
+  display: flex;
 }
 
 .bottom-text a {
-    padding: 10px;
+  padding: 10px;
 }
