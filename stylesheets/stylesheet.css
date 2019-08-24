@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: arial, sans-serif;
 }
 
 .main-wrapper {
@@ -92,7 +92,7 @@ body {
 .box-results {
   margin-left: 170px;
   border: 1px solid #f2f2f2;
-  border-radius: 5px;
+  border-radius: 8px;
   width: 600px;
   padding: 0px 15px;
   background-image: url(../images/box-results-image.jpeg);
@@ -106,7 +106,10 @@ body {
 }
 
 .box-results li {
-  font-size: 17px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 4px;
 }
 
 .box-results p {
@@ -122,14 +125,22 @@ body {
 
 .website-chooser h2 {
   font-size: 20px;
+  font-family: arial, sans-serif;
+  font-weight: 400;
   margin: 0;
   padding: 0;
 }
 
+.website-chooser h2:hover {
+  text-decoration: underline;
+}
+
 .website-chooser h4 {
+  font-size: 16px;
   margin: 0;
   margin-top: 5px;
-  color: green;
+  color: #006621;
+  font-weight: 400;
 }
 
 .snippets {
@@ -163,11 +174,13 @@ body {
 }
 
 .webpage h3 a {
-  color: blue;
+  color: rgb(40, 40, 202);
+  font-weight: 400;
 }
 
 .webpage h4 a {
-  color: green;
+  color: #006621;
+  font-weight: 400;
 }
 
 .webpage h3 a:hover {
