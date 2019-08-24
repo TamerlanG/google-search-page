@@ -243,3 +243,22 @@ body{
     color: #737373;
     font-size: 15px;
 }
+
+.searches-relates {
+    margin-left: 170px;
+    
+}
+
+.searches-relates ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.searches-relates li {
+    margin: 10px 0px;
+}
+
+.searches-relates a {
+    text-decoration: none;
+    color: blue;
+}
