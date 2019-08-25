@@ -153,9 +153,9 @@ body {
 
 .snippets a {
   padding: 0 10px;
-  font-size: 15px;
+  font-size: 12px;
   text-decoration: none;
-  color: #737373;
+  color: #777;
 }
 
 .webpage {
@@ -200,7 +200,7 @@ body {
   margin-top: 20px;
   margin-bottom: 10px;
   margin-left: 170px;
-  border: 1px solid black;
+  border: 1px solid #f2f2f2;
   width: 650px;
 }
 
@@ -213,8 +213,9 @@ body {
 }
 .people-also-ask li {
   padding: 15px 20px;
-  border-top: 1px black solid;
-  font-size: 18px;
+  border-top: 1px #f2f2f2 solid;
+  font-size: 16px;
+  font-weight: 400;
   cursor: pointer;
   background-image: url(../images/angle-down-solid.svg);
   background-repeat: no-repeat;
@@ -224,6 +225,7 @@ body {
 
 .people-also-ask h3 {
   padding-left: 20px;
+  font-weight: 400;
   padding-bottom: 10px;
   padding-top: 10px;
   margin: 0;
@@ -233,7 +235,7 @@ body {
   margin-top: 20px;
   margin-bottom: 10px;
   margin-left: 170px;
-  border: 1px solid black;
+  border: 1px solid #f2f2f2;
   width: 650px;
   padding: 10px;
   padding-bottom: 15px;
@@ -241,6 +243,8 @@ body {
 
 .related-search h3 {
   margin: 2px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .related-search ul {
@@ -255,18 +259,19 @@ body {
 }
 
 .lists img {
-  width: 96px;
+  width: 72px;
   height: 72px;
 }
 
 .lists a {
   text-decoration: none;
   color: blue;
+  display: block;
 }
 
 .related-searches {
-  color: #737373;
-  font-size: 15px;
+  color: #777;
+  font-size: 14px;
 }
 
 .searches-relates {
@@ -279,12 +284,23 @@ body {
 }
 
 .searches-relates li {
-  margin: 10px 0px;
+  margin: 6px 0px;
 }
 
 .searches-relates a {
   text-decoration: none;
-  color: blue;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1a0dab;
+}
+
+.searches-relates a:hover {
+  text-decoration: underline;
+}
+
+.searches-relates h3 {
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .different-pages {
@@ -307,7 +323,7 @@ body {
 
 .country-footer {
   background-color: #f2f2f2;
-  border: #737373 1px solid;
+  border: #e4e4e4 1px solid;
   color: #737373;
   padding-left: 150px;
   font-size: 14px;
@@ -346,4 +362,17 @@ body {
 
 .bottom-text a {
   padding: 10px;
+}
+
+.feedback {
+  margin-top: 0;
+  margin-left: 750px;
+  font-size: 12px;
+  color: #777;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.feedback:hover {
+  text-decoration: underline;
 }
